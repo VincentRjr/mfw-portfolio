@@ -1,5 +1,66 @@
 @import url('https://fonts.googleapis.com/css?family=Odibee+Sans|Oswald&display=swap');
 
+/* MY CUSTOM CSS CODE */
+
+body {
+    background-color: orange;
+ }
+ main {
+     background-color: #bbb;
+ }
+ h1 {
+     text-align: center;
+     font-size: 3em;
+ }
+ .flex_row {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-bottom: 2em;
+ }
+ 
+ .side_column {
+     display: flex;
+     flex-direction: column;
+     width: 50%;
+ }
+ 
+ .box {
+     background-image: url('../img/meltdown-blaze.jpg');
+     background-size: cover;
+     background-position: center center;
+     height: 600px;
+     background-color: #000;
+ }
+ .column {
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .flex_center {
+     align-self: center;
+     width: 80%;
+ }
+ 
+ .box_width {
+     width: 30%;
+     height: 300px;
+     background-color: #000;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+/* TUTORIAL CODE */
 * {
     margin: 0;
     padding: 0;
